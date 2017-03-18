@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		0F978ABB1DDF6E3F0057CF54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978ABA1DDF6E3F0057CF54 /* AppDelegate.swift */; };
-		0F978ABD1DDF6E3F0057CF54 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978ABC1DDF6E3F0057CF54 /* ViewController.swift */; };
+		0F978ABD1DDF6E3F0057CF54 /* NoteListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978ABC1DDF6E3F0057CF54 /* NoteListViewController.swift */; };
 		0F978AC01DDF6E3F0057CF54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F978ABE1DDF6E3F0057CF54 /* Main.storyboard */; };
 		0F978AC21DDF6E3F0057CF54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F978AC11DDF6E3F0057CF54 /* Assets.xcassets */; };
 		0F978AC51DDF6E3F0057CF54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F978AC31DDF6E3F0057CF54 /* LaunchScreen.storyboard */; };
 		0F978AD01DDF6E3F0057CF54 /* Note_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978ACF1DDF6E3F0057CF54 /* Note_ListTests.swift */; };
 		0F978ADB1DDF6E3F0057CF54 /* Note_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978ADA1DDF6E3F0057CF54 /* Note_ListUITests.swift */; };
+		0F978AE91DDF739E0057CF54 /* MissionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AE81DDF739E0057CF54 /* MissionDetailsViewController.swift */; };
+		0F978AEF1DDF7D490057CF54 /* MissionDetailsViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AEE1DDF7D490057CF54 /* MissionDetailsViewControllerDelegate.swift */; };
+		0F978AF21DDF7EF10057CF54 /* NoteList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AF01DDF7EF10057CF54 /* NoteList.xcdatamodeld */; };
+		0F978AF51DDF7F8B0057CF54 /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AF31DDF7F8B0057CF54 /* Mission.swift */; };
+		0F978AF61DDF7F8B0057CF54 /* Mission+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AF41DDF7F8B0057CF54 /* Mission+CoreDataProperties.swift */; };
+		0F978AF81DDFD5E60057CF54 /* CancelButtonDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F978AF71DDFD5E60057CF54 /* CancelButtonDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,7 @@
 /* Begin PBXFileReference section */
 		0F978AB71DDF6E3F0057CF54 /* Note List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Note List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F978ABA1DDF6E3F0057CF54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0F978ABC1DDF6E3F0057CF54 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0F978ABC1DDF6E3F0057CF54 /* NoteListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteListViewController.swift; sourceTree = "<group>"; };
 		0F978ABF1DDF6E3F0057CF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0F978AC11DDF6E3F0057CF54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F978AC41DDF6E3F0057CF54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,12 @@
 		0F978AD61DDF6E3F0057CF54 /* Note ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Note ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F978ADA1DDF6E3F0057CF54 /* Note_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note_ListUITests.swift; sourceTree = "<group>"; };
 		0F978ADC1DDF6E3F0057CF54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F978AE81DDF739E0057CF54 /* MissionDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewController.swift; sourceTree = "<group>"; };
+		0F978AEE1DDF7D490057CF54 /* MissionDetailsViewControllerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MissionDetailsViewControllerDelegate.swift; sourceTree = "<group>"; };
+		0F978AF11DDF7EF10057CF54 /* NoteList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoteList.xcdatamodel; sourceTree = "<group>"; };
+		0F978AF31DDF7F8B0057CF54 /* Mission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		0F978AF41DDF7F8B0057CF54 /* Mission+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Mission+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		0F978AF71DDFD5E60057CF54 /* CancelButtonDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelButtonDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,8 @@
 		0F978AAE1DDF6E3F0057CF54 = {
 			isa = PBXGroup;
 			children = (
+				0F978AF31DDF7F8B0057CF54 /* Mission.swift */,
+				0F978AF41DDF7F8B0057CF54 /* Mission+CoreDataProperties.swift */,
 				0F978AB91DDF6E3F0057CF54 /* Note List */,
 				0F978ACE1DDF6E3F0057CF54 /* Note ListTests */,
 				0F978AD91DDF6E3F0057CF54 /* Note ListUITests */,
@@ -98,10 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				0F978ABA1DDF6E3F0057CF54 /* AppDelegate.swift */,
-				0F978ABC1DDF6E3F0057CF54 /* ViewController.swift */,
+				0F978AF01DDF7EF10057CF54 /* NoteList.xcdatamodeld */,
+				0F978ABC1DDF6E3F0057CF54 /* NoteListViewController.swift */,
+				0F978AE81DDF739E0057CF54 /* MissionDetailsViewController.swift */,
+				0F978AEE1DDF7D490057CF54 /* MissionDetailsViewControllerDelegate.swift */,
+				0F978AF71DDFD5E60057CF54 /* CancelButtonDelegate.swift */,
 				0F978ABE1DDF6E3F0057CF54 /* Main.storyboard */,
-				0F978AC11DDF6E3F0057CF54 /* Assets.xcassets */,
 				0F978AC31DDF6E3F0057CF54 /* LaunchScreen.storyboard */,
+				0F978AC11DDF6E3F0057CF54 /* Assets.xcassets */,
 				0F978AC61DDF6E3F0057CF54 /* Info.plist */,
 			);
 			path = "Note List";
@@ -262,7 +280,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0F978ABD1DDF6E3F0057CF54 /* ViewController.swift in Sources */,
+				0F978AF61DDF7F8B0057CF54 /* Mission+CoreDataProperties.swift in Sources */,
+				0F978AEF1DDF7D490057CF54 /* MissionDetailsViewControllerDelegate.swift in Sources */,
+				0F978AF81DDFD5E60057CF54 /* CancelButtonDelegate.swift in Sources */,
+				0F978ABD1DDF6E3F0057CF54 /* NoteListViewController.swift in Sources */,
+				0F978AF51DDF7F8B0057CF54 /* Mission.swift in Sources */,
+				0F978AE91DDF739E0057CF54 /* MissionDetailsViewController.swift in Sources */,
+				0F978AF21DDF7EF10057CF54 /* NoteList.xcdatamodeld in Sources */,
 				0F978ABB1DDF6E3F0057CF54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,7 +444,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Note-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -433,7 +457,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.codingdojo.Note-List";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
@@ -514,6 +538,7 @@
 				0F978AE11DDF6E3F0057CF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F978AE21DDF6E3F0057CF54 /* Build configuration list for PBXNativeTarget "Note ListTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +547,7 @@
 				0F978AE41DDF6E3F0057CF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F978AE51DDF6E3F0057CF54 /* Build configuration list for PBXNativeTarget "Note ListUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,8 +556,23 @@
 				0F978AE71DDF6E3F0057CF54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0F978AF01DDF7EF10057CF54 /* NoteList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0F978AF11DDF7EF10057CF54 /* NoteList.xcdatamodel */,
+			);
+			currentVersion = 0F978AF11DDF7EF10057CF54 /* NoteList.xcdatamodel */;
+			name = NoteList.xcdatamodeld;
+			path = ../NoteList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0F978AAF1DDF6E3F0057CF54 /* Project object */;
 }

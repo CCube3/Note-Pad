@@ -12,11 +12,6 @@ import CoreData
 
 
 extension Mission {
-
-    @nonobjc public class func fetchRequest() -> NSFetchRequest<Mission> {
-        return NSFetchRequest<Mission>(entityName: "Mission");
-    }
-
-    @NSManaged public var details: String?
-
+    @NSManaged var details: String?
+    
 }

@@ -10,7 +10,6 @@
 import Foundation
 import CoreData
 
-@objc(Mission)
 public class Mission: NSManagedObject {
 
 }
